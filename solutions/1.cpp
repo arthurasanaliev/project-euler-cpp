@@ -1,5 +1,6 @@
-// Time Complexity:  O(1)
-// Space Complexity: O(1)
+// Key Idea: Arithmetic Sequences Sum
+
+// Time Complexity: O(1)
 
 #include <bits/stdc++.h>
 
