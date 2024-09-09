@@ -9,12 +9,12 @@ using namespace std;
 signed main() {
     int n;
     cin >> n;
-    int s = 2;
-    int x = 2, y = 8;
-    while (y <= n) {
-        s += y;
-        x += y * 4;
-        swap(x, y);
+    int sum = 2;
+    int one = 2, two = 8;
+    while (one <= n) {
+        sum = sum + two;
+        one = two * 4 + one;
+        swap(one, two);
     }
-    cout << s << '\n';
+    cout << sum << '\n';
 }

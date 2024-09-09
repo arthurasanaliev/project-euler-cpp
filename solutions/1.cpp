@@ -6,16 +6,16 @@
 
 using namespace std;
 
-int calc(int n, int f, int t) {
-    return n * (f + t) / 2;
+int sum(int n, int first, int last) {
+    return n * (first + last) / 2;
 }
 
 signed main() {
     int n;
     cin >> n;
     n -= 1;
-    int s3 = calc(n / 3, 3, n / 3 * 3);
-    int s5 = calc(n / 5, 5, n / 5 * 5);
-    int s15 = calc(n / 15, 15, n / 15 * 15);
-    cout << s3 + s5 - s15 << '\n';
+    int sum3 = sum(n / 3, 3, n / 3 * 3);
+    int sum5 = sum(n / 5, 5, n / 5 * 5);
+    int sum15 = sum(n / 15, 15, n / 15 * 15);
+    cout << sum3 + sum5 - sum15 << '\n';
 }
