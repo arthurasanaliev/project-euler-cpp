@@ -1,6 +1,7 @@
 // Key Idea: Arithmetic Sequences Sum
 
 // Time Complexity: O(1)
+// Optimal
 
 #include <bits/stdc++.h>
 

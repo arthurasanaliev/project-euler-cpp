@@ -1,6 +1,7 @@
 // Key Idea: Prime Factorization
 
 // Time Complexity: O(N*sqrt(N))
+// Optimal
 
 #include <bits/stdc++.h>
 

@@ -1,6 +1,7 @@
 // Key Idea: None
 
 // Time Complexity: O(sqrt(N))
+// Optimal
 
 #include <bits/stdc++.h>
 
