@@ -1,4 +1,4 @@
-### Sum of Consecutive Numbers
+### Sum of Arithmetic Series
 `S = n * (first + last) / 2`
 Project Euler: 6
 
